@@ -8,6 +8,6 @@ RUN npm run build
 # Install a static server
 RUN npm install -g serve
 # Serve the frontend web application
-CMD serve -p build
+CMD serve -s build
 EXPOSE 5000
 
